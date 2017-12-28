@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-12-27T08:32:38.291Z</updated>
+  <updated>2017-12-28T08:15:47.239Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,66 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>.Net高级工程师进阶计划</title>
+    <link href="http://yoursite.com/2017/12/28/DotNet%E9%AB%98%E7%BA%A7%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%BF%9B%E9%98%B6%E8%AE%A1%E5%88%92/"/>
+    <id>http://yoursite.com/2017/12/28/DotNet高级工程师进阶计划/</id>
+    <published>2017-12-28T07:24:52.046Z</published>
+    <updated>2017-12-28T08:15:47.239Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="路线"><a href="#路线" class="headerlink" title="路线"></a>路线</h3><ol><li>泛型</li><li>反射</li><li>lambda和linq</li><li>接口和抽象类</li><li>委托、事件</li><li>IO序列化、反序列化</li><li>异步多线程</li><li>加密解密</li><li>设计模式</li><li>爬虫制作</li><li>DB</li><li>缓存redis</li><li>Lucene.net</li><li>SOA WebService WebApi WCF</li><li>Attribute AOP</li><li>NHiBernate</li><li>EntityFramework6</li><li>IOC</li><li>MVC</li><li>Razor </li></ol><p>学习是要有一个连惯性的，坚持学习</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;路线&quot;&gt;&lt;a href=&quot;#路线&quot; class=&quot;headerlink&quot; title=&quot;路线&quot;&gt;&lt;/a&gt;路线&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;泛型&lt;/li&gt;
+&lt;li&gt;反射&lt;/li&gt;
+&lt;li&gt;lambda和linq&lt;/li&gt;
+&lt;li&gt;接口和抽象类&lt;/li&gt;
+&lt;li&gt;委托、
+      
+    
+    </summary>
+    
+      <category term=".Net" scheme="http://yoursite.com/categories/Net/"/>
+    
+    
+      <category term=".Net" scheme="http://yoursite.com/tags/Net/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>设计模式</title>
+    <link href="http://yoursite.com/2017/12/28/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    <id>http://yoursite.com/2017/12/28/设计模式/</id>
+    <published>2017-12-28T07:19:51.888Z</published>
+    <updated>2017-12-28T08:22:45.453Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><p>设计模式是为了封装变化，让各个模块可以独立变化。精准的使用设计模式的前提是你能够精准的预测变更的走向。我们都知道大部分人是做不到的，所以大部分人就算精通设计模式也多少会做错点什么东西。所以其实不怪设计模式，怪产品狗。</p><p>所以说如何避免过度设计，这就要你深入理解你的程序所在的领域的知识，了解用户使用你的软件是为了解决什么问题，这样你预测用户的需求才会比以前更加准确，从而避免了你使用设计模式来封装一些根本不会发生的变化，也避免了你忽视了未来会发生的变化从而发现你使用的设计模式根本不能适应需要的新走向</p><p>所以在你满足了 <strong>知道所有的设计模式为什么被发明出来</strong> 的前提之后，剩下的其实跟编程都没有关系，而跟你的领域知识和领域经验有关系[注1]。</p><h3 id="23种设计模式"><a href="#23种设计模式" class="headerlink" title="23种设计模式"></a>23种设计模式</h3><h5 id="创建型模式"><a href="#创建型模式" class="headerlink" title="创建型模式"></a>创建型模式</h5><ul><li>工厂模式、抽象工厂模式</li><li>单例模式</li><li>建造者模式</li><li>原型模式<h5 id="结构型模式"><a href="#结构型模式" class="headerlink" title="结构型模式"></a>结构型模式</h5></li><li>适配器模式</li><li>装饰器模式</li><li>桥接模式</li><li>外观模式</li><li>代理模式</li><li>过滤器模式</li><li>组合模式</li><li>享元模式<h5 id="行为型模式"><a href="#行为型模式" class="headerlink" title="行为型模式"></a>行为型模式</h5></li><li>责任链模式</li><li>观察者模式</li><li>模板模式</li><li>命令模式</li><li>解释器模式</li><li>迭代器模式</li><li>中介者模式</li><li>策略模式</li><li>状态模式</li><li>备忘录模式</li><li>空对象模式</li></ul><p>【注1】：<a href="https://www.zhihu.com/question/23757906" title="知乎" target="_blank" rel="noopener">https://www.zhihu.com/question/23757906</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot; title=&quot;写在前面&quot;&gt;&lt;/a&gt;写在前面&lt;/h3&gt;&lt;p&gt;设计模式是为了封装变化，让各个模块可以独立变化。精准的使用设计模式的前提是你能够精准的预测变更的走向。我们都知道大部分人是做
+      
+    
+    </summary>
+    
+    
+      <category term=".Net" scheme="http://yoursite.com/tags/Net/"/>
+    
+      <category term="设计模式" scheme="http://yoursite.com/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
     <link href="http://yoursite.com/2017/12/27/hello-world/"/>
     <id>http://yoursite.com/2017/12/27/hello-world/</id>
     <published>2017-12-27T09:18:18.363Z</published>
-    <updated>2017-12-27T08:32:38.291Z</updated>
+    <updated>2017-12-28T08:24:38.519Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
     
@@ -34,6 +89,8 @@
     
     </summary>
     
+    
+      <category term="初始化" scheme="http://yoursite.com/tags/%E5%88%9D%E5%A7%8B%E5%8C%96/"/>
     
   </entry>
   
