@@ -43,7 +43,7 @@
     
     <title>
         
-            设计模式 | 
+            CLR via C# | 
         
         enonly&#39;s blog
     </title>
@@ -54,7 +54,7 @@
 
     <meta name="format-detection" content="telephone=no"/>
     <meta name="description" itemprop="description" content="">
-    <meta name="keywords" content=".Net Blog,.Net,设计模式">
+    <meta name="keywords" content=".Net Blog,.Net,读书笔记">
     <meta name="theme-color" content="#0097A7">
 
     <!-- Disable Fucking Bloody Baidu Tranformation -->
@@ -215,7 +215,7 @@
     <!-- WebAPP Icons -->
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="enonly&#39;s blog">
-    <meta name="msapplication-starturl" content="http://yoursite.com/2017/12/28/设计模式/">
+    <meta name="msapplication-starturl" content="http://yoursite.com/2017/12/29/阅读_CLR-Via-CSharp/">
     <meta name="msapplication-navbutton-color" content="#0097A7">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="enonly&#39;s blog">
@@ -230,16 +230,16 @@
     
 
     <!-- The Open Graph protocol -->
-    <meta property="og:url" content="http://yoursite.com/2017/12/28/设计模式/">
+    <meta property="og:url" content="http://yoursite.com/2017/12/29/阅读_CLR-Via-CSharp/">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="设计模式 | enonly&#39;s blog">
+    <meta property="og:title" content="CLR via C# | enonly&#39;s blog">
     <meta property="og:image" content="/img/favicon.png">
     <meta property="og:description" content="">
-    <meta property="og:article:tag" content=".Net"> <meta property="og:article:tag" content="设计模式"> 
+    <meta property="og:article:tag" content=".Net"> <meta property="og:article:tag" content="读书笔记"> 
 
     
-        <meta property="article:published_time" content="Thu Dec 28 2017 07:19:51 GMT+0000">
-        <meta property="article:modified_time" content="Thu Dec 28 2017 16:22:45 GMT+0800">
+        <meta property="article:published_time" content="Fri Dec 29 2017 00:48:19 GMT+0000">
+        <meta property="article:modified_time" content="Fri Dec 29 2017 11:42:14 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -247,7 +247,7 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://yoursite.com/2017/12/28/设计模式/index.html" />
+        <link rel="canonical" href="http://yoursite.com/2017/12/29/阅读_CLR-Via-CSharp/index.html" />
     
 
     <!-- Structured-data for SEO -->
@@ -259,10 +259,10 @@
 {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "mainEntityOfPage": "http://yoursite.com/2017/12/28/设计模式/index.html",
-    "headline": "设计模式",
-    "datePublished": "Thu Dec 28 2017 07:19:51 GMT+0000",
-    "dateModified": "Thu Dec 28 2017 16:22:45 GMT+0800",
+    "mainEntityOfPage": "http://yoursite.com/2017/12/29/阅读_CLR-Via-CSharp/index.html",
+    "headline": "CLR via C#",
+    "datePublished": "Fri Dec 29 2017 00:48:19 GMT+0000",
+    "dateModified": "Fri Dec 29 2017 11:42:14 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "enonly",
@@ -280,7 +280,7 @@
             "url": "/img/favicon.png"
         }
     },
-    "keywords": ",.Net,设计模式.Net Blog",
+    "keywords": ",.Net,读书笔记.Net Blog",
     "description": "",
 }
 </script>
@@ -346,7 +346,7 @@
     </button>
 
     <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
-        <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#写在前面"><span class="post-toc-number">1.</span> <span class="post-toc-text">写在前面</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#23种设计模式"><span class="post-toc-number">2.</span> <span class="post-toc-text">23种设计模式</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#创建型模式"><span class="post-toc-number">2.0.1.</span> <span class="post-toc-text">创建型模式</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#结构型模式"><span class="post-toc-number">2.0.2.</span> <span class="post-toc-text">结构型模式</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#行为型模式"><span class="post-toc-number">2.0.3.</span> <span class="post-toc-text">行为型模式</span></a></li></ol></li></ol></li></ol>
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#CLR基础"><span class="post-toc-number">1.</span> <span class="post-toc-text">CLR基础</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#CLR-的执行模型"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">CLR 的执行模型</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#将源代码编译成托管模块"><span class="post-toc-number">1.1.1.</span> <span class="post-toc-text">将源代码编译成托管模块</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#将托管模块合并成程序集"><span class="post-toc-number">1.1.2.</span> <span class="post-toc-text">将托管模块合并成程序集</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#加载公共语言运行时"><span class="post-toc-number">1.1.3.</span> <span class="post-toc-text">加载公共语言运行时</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#执行程序集的代码"><span class="post-toc-number">1.1.4.</span> <span class="post-toc-text">执行程序集的代码</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#本机代码生成器：NGen-exe"><span class="post-toc-number">1.1.5.</span> <span class="post-toc-text">本机代码生成器：NGen.exe</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#Framework-类库"><span class="post-toc-number">1.1.6.</span> <span class="post-toc-text">Framework 类库</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#通用类型系统"><span class="post-toc-number">1.1.7.</span> <span class="post-toc-text">通用类型系统</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#公共语言规范"><span class="post-toc-number">1.1.8.</span> <span class="post-toc-text">公共语言规范</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#与非托管代码的互操作性"><span class="post-toc-number">1.1.9.</span> <span class="post-toc-text">与非托管代码的互操作性</span></a></li></ol></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#生成、打包、部署和管理应用程序及类型"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">生成、打包、部署和管理应用程序及类型</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#NET-Framework-部署目标"><span class="post-toc-number">1.2.1.</span> <span class="post-toc-text">.NET Framework 部署目标</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#将类型生成到模块中"><span class="post-toc-number">1.2.2.</span> <span class="post-toc-text">将类型生成到模块中</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#元数据概述"><span class="post-toc-number">1.2.3.</span> <span class="post-toc-text">元数据概述</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#将模块合成程序集"><span class="post-toc-number">1.2.4.</span> <span class="post-toc-text">将模块合成程序集</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#程序集版本资源信息"><span class="post-toc-number">1.2.5.</span> <span class="post-toc-text">程序集版本资源信息</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#语言文化"><span class="post-toc-number">1.2.6.</span> <span class="post-toc-text">语言文化</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#简单应用程序部署"><span class="post-toc-number">1.2.7.</span> <span class="post-toc-text">简单应用程序部署</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#简单管理控制"><span class="post-toc-number">1.2.8.</span> <span class="post-toc-text">简单管理控制</span></a></li></ol></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#共享程序集和强命名程序集"><span class="post-toc-number">1.3.</span> <span class="post-toc-text">共享程序集和强命名程序集</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#设计类型"><span class="post-toc-number">2.</span> <span class="post-toc-text">设计类型</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#类型基础"><span class="post-toc-number">2.1.</span> <span class="post-toc-text">类型基础</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#基元类型、引用类型和值类型"><span class="post-toc-number">2.2.</span> <span class="post-toc-text">基元类型、引用类型和值类型</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#类型和成员基础"><span class="post-toc-number">2.3.</span> <span class="post-toc-text">类型和成员基础</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#常量和字段"><span class="post-toc-number">2.4.</span> <span class="post-toc-text">常量和字段</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#方法"><span class="post-toc-number">2.5.</span> <span class="post-toc-text">方法</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#参数"><span class="post-toc-number">2.6.</span> <span class="post-toc-text">参数</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#属性"><span class="post-toc-number">2.7.</span> <span class="post-toc-text">属性</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#事件"><span class="post-toc-number">2.8.</span> <span class="post-toc-text">事件</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#泛型"><span class="post-toc-number">2.9.</span> <span class="post-toc-text">泛型</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#接口"><span class="post-toc-number">2.10.</span> <span class="post-toc-text">接口</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#基本类型"><span class="post-toc-number">3.</span> <span class="post-toc-text">基本类型</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#字符、字符串和文本处理"><span class="post-toc-number">3.1.</span> <span class="post-toc-text">字符、字符串和文本处理</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#枚举类型和位标志"><span class="post-toc-number">3.2.</span> <span class="post-toc-text">枚举类型和位标志</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#数组"><span class="post-toc-number">3.3.</span> <span class="post-toc-text">数组</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#委托"><span class="post-toc-number">3.4.</span> <span class="post-toc-text">委托</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#定制特性"><span class="post-toc-number">3.5.</span> <span class="post-toc-text">定制特性</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#可空值类型"><span class="post-toc-number">3.6.</span> <span class="post-toc-text">可空值类型</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#核心机制"><span class="post-toc-number">4.</span> <span class="post-toc-text">核心机制</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#异常和状态管理"><span class="post-toc-number">4.1.</span> <span class="post-toc-text">异常和状态管理</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#托管堆和垃圾回收"><span class="post-toc-number">4.2.</span> <span class="post-toc-text">托管堆和垃圾回收</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#CLR寄宿和AppDomain"><span class="post-toc-number">4.3.</span> <span class="post-toc-text">CLR寄宿和AppDomain</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#程序集加载和反射"><span class="post-toc-number">4.4.</span> <span class="post-toc-text">程序集加载和反射</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#运行时序列化"><span class="post-toc-number">4.5.</span> <span class="post-toc-text">运行时序列化</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#与WinRT组件互操作"><span class="post-toc-number">4.6.</span> <span class="post-toc-text">与WinRT组件互操作</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#线程处理"><span class="post-toc-number">5.</span> <span class="post-toc-text">线程处理</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#线程基础"><span class="post-toc-number">5.1.</span> <span class="post-toc-text">线程基础</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#计算限制的异步操作"><span class="post-toc-number">5.2.</span> <span class="post-toc-text">计算限制的异步操作</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#I-O-限制的异步操作"><span class="post-toc-number">5.3.</span> <span class="post-toc-text">I/O 限制的异步操作</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#基元线程同步构造"><span class="post-toc-number">5.4.</span> <span class="post-toc-text">基元线程同步构造</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#混合线程同步构造"><span class="post-toc-number">5.5.</span> <span class="post-toc-text">混合线程同步构造</span></a></li></ol></li></ol>
     </ul>
     
 
@@ -378,7 +378,7 @@
         
     
             <p class="article-headline-p">
-                设计模式
+                CLR via C#
             </p>
         </div>
 
@@ -397,7 +397,7 @@
     <!-- Author Name & Date -->
     <div>
         <strong>enonly</strong>
-        <span>12月 28, 2017</span>
+        <span>12月 29, 2017</span>
     </div>
 
     <div class="section-spacer"></div>
@@ -421,7 +421,7 @@
     </button>
     <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
         <li class="mdl-menu__item">
-        <a class="post_tag-link" href="/tags/Net/">.Net</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/设计模式/">设计模式</a>
+        <a class="post_tag-link" href="/tags/Net/">.Net</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/读书笔记/">读书笔记</a>
     </ul>
     
 
@@ -438,7 +438,7 @@
 
     <!-- Share Weibo -->
     
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=设计模式&url=http://yoursite.com/2017/12/28/设计模式/index.html&pic=http://yoursite.com/img/favicon.png&searchPic=false&style=simple" target="_blank">
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=CLR via C#&url=http://yoursite.com/2017/12/29/阅读_CLR-Via-CSharp/index.html&pic=http://yoursite.com/img/favicon.png&searchPic=false&style=simple" target="_blank">
             <li class="mdl-menu__item">
                 分享到微博
             </li>
@@ -447,7 +447,7 @@
 
     <!-- Share Twitter -->
     
-        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=设计模式&url=http://yoursite.com/2017/12/28/设计模式/index.html&via=enonly" target="_blank">
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=CLR via C#&url=http://yoursite.com/2017/12/29/阅读_CLR-Via-CSharp/index.html&via=enonly" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Twitter
             </li>
@@ -456,7 +456,7 @@
 
     <!-- Share Facebook -->
     
-        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2017/12/28/设计模式/index.html" target="_blank">
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2017/12/29/阅读_CLR-Via-CSharp/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Facebook
             </li>
@@ -465,7 +465,7 @@
 
     <!-- Share Google+ -->
     
-        <a class="post_share-link" href="https://plus.google.com/share?url=http://yoursite.com/2017/12/28/设计模式/index.html" target="_blank">
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://yoursite.com/2017/12/29/阅读_CLR-Via-CSharp/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Google+
             </li>
@@ -490,36 +490,107 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><p>设计模式是为了封装变化，让各个模块可以独立变化。精准的使用设计模式的前提是你能够精准的预测变更的走向。我们都知道大部分人是做不到的，所以大部分人就算精通设计模式也多少会做错点什么东西。所以其实不怪设计模式，怪产品狗。</p>
-<p>所以说如何避免过度设计，这就要你深入理解你的程序所在的领域的知识，了解用户使用你的软件是为了解决什么问题，这样你预测用户的需求才会比以前更加准确，从而避免了你使用设计模式来封装一些根本不会发生的变化，也避免了你忽视了未来会发生的变化从而发现你使用的设计模式根本不能适应需要的新走向</p>
-<p>所以在你满足了 <strong>知道所有的设计模式为什么被发明出来</strong> 的前提之后，剩下的其实跟编程都没有关系，而跟你的领域知识和领域经验有关系[注1]。</p>
-<h3 id="23种设计模式"><a href="#23种设计模式" class="headerlink" title="23种设计模式"></a>23种设计模式</h3><h5 id="创建型模式"><a href="#创建型模式" class="headerlink" title="创建型模式"></a>创建型模式</h5><ul>
-<li>工厂模式、抽象工厂模式</li>
-<li>单例模式</li>
-<li>建造者模式</li>
-<li>原型模式<h5 id="结构型模式"><a href="#结构型模式" class="headerlink" title="结构型模式"></a>结构型模式</h5></li>
-<li>适配器模式</li>
-<li>装饰器模式</li>
-<li>桥接模式</li>
-<li>外观模式</li>
-<li>代理模式</li>
-<li>过滤器模式</li>
-<li>组合模式</li>
-<li>享元模式<h5 id="行为型模式"><a href="#行为型模式" class="headerlink" title="行为型模式"></a>行为型模式</h5></li>
-<li>责任链模式</li>
-<li>观察者模式</li>
-<li>模板模式</li>
-<li>命令模式</li>
-<li>解释器模式</li>
-<li>迭代器模式</li>
-<li>中介者模式</li>
-<li>策略模式</li>
-<li>状态模式</li>
-<li>备忘录模式</li>
-<li>空对象模式</li>
+        <h3 id="CLR基础"><a href="#CLR基础" class="headerlink" title="CLR基础"></a><em>CLR基础</em></h3><h4 id="CLR-的执行模型"><a href="#CLR-的执行模型" class="headerlink" title="CLR 的执行模型"></a>CLR 的执行模型</h4><h5 id="将源代码编译成托管模块"><a href="#将源代码编译成托管模块" class="headerlink" title="将源代码编译成托管模块"></a>将源代码编译成托管模块</h5><p>公共语言运行时（Common Language Runtume,CLR）是一个可由多种编程语言使用的“运行时”。CLR的核心功能（比如内存管理，程序集加载、安全性、异常处理和线程同步）可由面向CLR的所有语言使用</p>
+<p>IL（Intermediate Language 中间语言）：本机代码编译器生成的是面向特定CPU架构的代码，相反，每个面向CLR的的编译器生成的都是IL代码。IL代码有时称为托管代码，因为CLR管理它的执行。</p>
+<p>元数据（metadata）</p>
+<h5 id="将托管模块合并成程序集"><a href="#将托管模块合并成程序集" class="headerlink" title="将托管模块合并成程序集"></a>将托管模块合并成程序集</h5><p>程序集是一个或多个模块、资源文件的逻辑性分组</p>
+<p>程序集是重用、安全性以及版本控制的最小单元</p>
+<p>程序集的模块中还包含与引用的程序集有关的信息（包括版本号），这些信息使程序集能够自我描述。也就是说，CLR能判断为了执行程序集中的代码，程序集的直接依赖对象是什么。不需要注册表或Active Directory Domain Services 中保存额外的信息。由于无需额外的信息，所以和非托管组件相比，程序集更容易部署。</p>
+<h5 id="加载公共语言运行时"><a href="#加载公共语言运行时" class="headerlink" title="加载公共语言运行时"></a>加载公共语言运行时</h5><p>如果没有限制的话，只要机器上安装了对应版本的.Net Framework,编译器生成的文件就能运行</p>
+<p>如果想限制平台在指定对应的平台即可（/platform命令行开关选项）</p>
+<h5 id="执行程序集的代码"><a href="#执行程序集的代码" class="headerlink" title="执行程序集的代码"></a>执行程序集的代码</h5><p>IL汇编语言允许开发人员访问CLR的全部功能</p>
+<p>JIT（just in time 编译器）</p>
+<p>windows 的每个进程都有自己的虚拟地址空间。独立地址空间之所以必要，是因为不能简单的信任一个应用程序的代码。这样将获得健壮性和稳定性；一个进程不干扰到另外一个进程</p>
+<p>用一个进程允许多个应用程序，可减少进程数，从而增强性能，减少所需的资源，健壮性也没有丝毫下降。这是托管相较于非托管的另一个优势。</p>
+<p>每个托管程序都在一个AppDomain 中执行</p>
+<h5 id="本机代码生成器：NGen-exe"><a href="#本机代码生成器：NGen-exe" class="headerlink" title="本机代码生成器：NGen.exe"></a>本机代码生成器：NGen.exe</h5><p>使用.Net Framework 提供的NGen.exe 工具，可以再引用程序安装到用户的计算机上时，将IL代码编译成蹦极代码。由于代码在安装时已经编译好，所以CLR的JIT编译器不需要在允许时编译IL代码，这有助于提升应用程序的性能。NGen 能再一下两种情况下发挥重要作用。</p>
+<ol>
+<li>提高应用程序的气动速度</li>
+<li>减少应用程序的工作集</li>
+</ol>
+<p>但是也有以下问题</p>
+<ul>
+<li>没有知识产权的保护</li>
+<li>NGen生成的文件可能失去同步</li>
+<li>较差的执行时性能</li>
 </ul>
-<p>【注1】：<a href="https://www.zhihu.com/question/23757906" title="知乎" target="_blank" rel="noopener">https://www.zhihu.com/question/23757906</a></p>
-
+<h5 id="Framework-类库"><a href="#Framework-类库" class="headerlink" title="Framework 类库"></a>Framework 类库</h5><p>.NET Framework 包含Framework类库（Framework Class Library，FCL）。FCL是一组DLL的程序集的统称，其中包含有数千个类型的定义，每个类型都公开了一些功能。</p>
+<p>下面列举应用程序开发人员可以利用这些程序集创建的一部分应用程序</p>
+<ul>
+<li>Web服务（Web Service）</li>
+<li>基于HTML的Web窗体、MVC应用程序</li>
+<li>‘富’ Windows GUI 应用程序</li>
+<li>Windows控制台应用程序</li>
+<li>Windows服务</li>
+<li>数据库存储过程</li>
+<li>组件库</li>
+</ul>
+<h5 id="通用类型系统"><a href="#通用类型系统" class="headerlink" title="通用类型系统"></a>通用类型系统</h5><p>通用类型系统（Common Type System，CTS）</p>
+<p>CTS规范规定，一个类型可以包括零个或者多个成员</p>
+<p>下面简单介绍一下它们</p>
+<ul>
+<li><em>字段(Filed)</em><ul>
+<li>作为对象状态的一部分数据变量。字段根据名称和类型来区分</li>
+</ul>
+</li>
+<li>方法(Method)<ul>
+<li>针对对象执行操作的函数，通常会改变对象的状态</li>
+</ul>
+</li>
+<li><em>属性(Property)</em><ul>
+<li>对于调用者，属性看起来像是字段。但对于类型的实现者，属性看起来像是一个方法（或者两个方法，getter 和 setter）。属性允许在访问值之前校验参数输入和对象状态，以及、或者仅在必要时才计算某个值。属性还允许类型的用户采用简化的语法。属性允许创建只读或者只写字段。</li>
+</ul>
+</li>
+<li><em>事件(Event)</em><ul>
+<li>事件在对象以及其他相关对象之间实现了通知机制。例如，按钮提供一个时间，可在按钮被单击之后通知其他对象。</li>
+</ul>
+</li>
+</ul>
+<p>CTS还指定了类型的可见性规则以及类型成员的访问规则。利用CTS订制的规则，程序集为一个类型建立了可是边界，CLR则贯彻了这些规则</p>
+<ul>
+<li><em>private</em><ul>
+<li>成员只能由同一个类（class）类型中的其他成员访问</li>
+</ul>
+</li>
+<li><em>family</em><ul>
+<li>成员可由派生类型访问，但这些派生类型必须在同一个程序集中定义。许多语言（比如C++和C#）都用protected修饰符来标识family</li>
+</ul>
+</li>
+<li><em>family and assembly</em><ul>
+<li>成员可由派生类型访问，但这些派生类型必须在同一个程序集中定义。许多语言（比如C++和C#）都没有提供这种访问控制</li>
+</ul>
+</li>
+<li><em>assembly</em><ul>
+<li>成员可由同一个程序集中的任何代码访问。许多语言都用internal修饰符来标识assembly</li>
+</ul>
+</li>
+<li><em>family or assembly</em><ul>
+<li>成员可由同一个程序集的派生类型访问。成员也可由同一个程序集中的任何类型访问。C#用protected internal 修饰符标识family or assembly</li>
+</ul>
+</li>
+<li><em>public</em><ul>
+<li>成员可由任何程序集中的任何代码访问</li>
+</ul>
+</li>
+</ul>
+<p>区别对待 ‘代码的语言’ 和 ‘代码的行为’</p>
+<p>所有的类型最终必须从预定义的System.Object 类型继承，Object类型允许做一下事情。</p>
+<ul>
+<li>比较两个类型的相等性</li>
+<li>获取实例的哈希码</li>
+<li>查询一个实例的真正类型</li>
+<li>执行实例的浅拷贝</li>
+<li>获取实例对象单前状态的字符串表示</li>
+<li><h5 id="公共语言规范"><a href="#公共语言规范" class="headerlink" title="公共语言规范"></a>公共语言规范</h5></li>
+</ul>
+<p>公共语言规范（Common Language Specification,CLS）</p>
+<h5 id="与非托管代码的互操作性"><a href="#与非托管代码的互操作性" class="headerlink" title="与非托管代码的互操作性"></a>与非托管代码的互操作性</h5><p>CLR 支持三种互操作情形：</p>
+<ul>
+<li>托管代码能够调用DLL中的非托管函数</li>
+<li>托管代码可以使用现有的COM组件（服务器）</li>
+<li>非托管代码可以使用托管类型（服务器）</li>
+</ul>
+<h4 id="生成、打包、部署和管理应用程序及类型"><a href="#生成、打包、部署和管理应用程序及类型" class="headerlink" title="生成、打包、部署和管理应用程序及类型"></a>生成、打包、部署和管理应用程序及类型</h4><h5 id="NET-Framework-部署目标"><a href="#NET-Framework-部署目标" class="headerlink" title=".NET Framework 部署目标"></a>.NET Framework 部署目标</h5><h5 id="将类型生成到模块中"><a href="#将类型生成到模块中" class="headerlink" title="将类型生成到模块中"></a>将类型生成到模块中</h5><h5 id="元数据概述"><a href="#元数据概述" class="headerlink" title="元数据概述"></a>元数据概述</h5><h5 id="将模块合成程序集"><a href="#将模块合成程序集" class="headerlink" title="将模块合成程序集"></a>将模块合成程序集</h5><h5 id="程序集版本资源信息"><a href="#程序集版本资源信息" class="headerlink" title="程序集版本资源信息"></a>程序集版本资源信息</h5><h5 id="语言文化"><a href="#语言文化" class="headerlink" title="语言文化"></a>语言文化</h5><h5 id="简单应用程序部署"><a href="#简单应用程序部署" class="headerlink" title="简单应用程序部署"></a>简单应用程序部署</h5><h5 id="简单管理控制"><a href="#简单管理控制" class="headerlink" title="简单管理控制"></a>简单管理控制</h5><h4 id="共享程序集和强命名程序集"><a href="#共享程序集和强命名程序集" class="headerlink" title="共享程序集和强命名程序集"></a>共享程序集和强命名程序集</h4><h3 id="设计类型"><a href="#设计类型" class="headerlink" title="设计类型"></a><em>设计类型</em></h3><h4 id="类型基础"><a href="#类型基础" class="headerlink" title="类型基础"></a>类型基础</h4><h4 id="基元类型、引用类型和值类型"><a href="#基元类型、引用类型和值类型" class="headerlink" title="基元类型、引用类型和值类型"></a>基元类型、引用类型和值类型</h4><h4 id="类型和成员基础"><a href="#类型和成员基础" class="headerlink" title="类型和成员基础"></a>类型和成员基础</h4><h4 id="常量和字段"><a href="#常量和字段" class="headerlink" title="常量和字段"></a>常量和字段</h4><h4 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h4><h4 id="参数"><a href="#参数" class="headerlink" title="参数"></a>参数</h4><h4 id="属性"><a href="#属性" class="headerlink" title="属性"></a>属性</h4><h4 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h4><h4 id="泛型"><a href="#泛型" class="headerlink" title="泛型"></a>泛型</h4><h4 id="接口"><a href="#接口" class="headerlink" title="接口"></a>接口</h4><h3 id="基本类型"><a href="#基本类型" class="headerlink" title="基本类型"></a>基本类型</h3><h4 id="字符、字符串和文本处理"><a href="#字符、字符串和文本处理" class="headerlink" title="字符、字符串和文本处理"></a>字符、字符串和文本处理</h4><h4 id="枚举类型和位标志"><a href="#枚举类型和位标志" class="headerlink" title="枚举类型和位标志"></a>枚举类型和位标志</h4><h4 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h4><h4 id="委托"><a href="#委托" class="headerlink" title="委托"></a>委托</h4><h4 id="定制特性"><a href="#定制特性" class="headerlink" title="定制特性"></a>定制特性</h4><h4 id="可空值类型"><a href="#可空值类型" class="headerlink" title="可空值类型"></a>可空值类型</h4><h3 id="核心机制"><a href="#核心机制" class="headerlink" title="核心机制"></a>核心机制</h3><h4 id="异常和状态管理"><a href="#异常和状态管理" class="headerlink" title="异常和状态管理"></a>异常和状态管理</h4><h4 id="托管堆和垃圾回收"><a href="#托管堆和垃圾回收" class="headerlink" title="托管堆和垃圾回收"></a>托管堆和垃圾回收</h4><h4 id="CLR寄宿和AppDomain"><a href="#CLR寄宿和AppDomain" class="headerlink" title="CLR寄宿和AppDomain"></a>CLR寄宿和AppDomain</h4><h4 id="程序集加载和反射"><a href="#程序集加载和反射" class="headerlink" title="程序集加载和反射"></a>程序集加载和反射</h4><h4 id="运行时序列化"><a href="#运行时序列化" class="headerlink" title="运行时序列化"></a>运行时序列化</h4><h4 id="与WinRT组件互操作"><a href="#与WinRT组件互操作" class="headerlink" title="与WinRT组件互操作"></a>与WinRT组件互操作</h4><h3 id="线程处理"><a href="#线程处理" class="headerlink" title="线程处理"></a>线程处理</h3><h4 id="线程基础"><a href="#线程基础" class="headerlink" title="线程基础"></a>线程基础</h4><h4 id="计算限制的异步操作"><a href="#计算限制的异步操作" class="headerlink" title="计算限制的异步操作"></a>计算限制的异步操作</h4><h4 id="I-O-限制的异步操作"><a href="#I-O-限制的异步操作" class="headerlink" title="I/O 限制的异步操作"></a>I/O 限制的异步操作</h4><h4 id="基元线程同步构造"><a href="#基元线程同步构造" class="headerlink" title="基元线程同步构造"></a>基元线程同步构造</h4><h4 id="混合线程同步构造"><a href="#混合线程同步构造" class="headerlink" title="混合线程同步构造"></a>混合线程同步构造</h4>
         
     
 
@@ -539,21 +610,13 @@
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
     
-        <a href="/2017/12/28/DotNet高级工程师进阶计划/" id="post_nav-newer" class="prev-content">
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-                <i class="material-icons">arrow_back</i>
-            </button>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            新篇
-        </a>
-    
 
     <!-- Section Spacer -->
     <div class="section-spacer"></div>
 
     <!-- Next Nav -->
     
-        <a href="/2017/12/27/hello-world/" id="post_nav-older" class="next-content">
+        <a href="/2017/12/28/DotNet高级工程师进阶计划/" id="post_nav-older" class="next-content">
             旧篇
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
